@@ -14,6 +14,7 @@
 
     <style>
 
+        /* Style container for displaying cards */
         #dvCardDisplay {
             height: 500px;
             width: 500px;
@@ -22,17 +23,20 @@
             margin: auto;
         }
 
+        /* Style container for displaying message */
         #container {
             border: solid 1px #DCB7D4;
             width: 200px;
             height: 25px;
         }
 
+        /* Style margin around the button */
         #buttonMargin {
             text-align: center;
             margin-top: 100px;
         }
         
+        /* Style the button color */
         #btnRestart {
             background-color: #DCB7D4;
         }
@@ -43,14 +47,19 @@
     
 
     <h3>Let's Play Concentration!</h3>
+
+    <!-- Create message div container -->
     <div id="container">
     <div id="dvAlert"></div>
     </div>
 
+    <!-- Create card display div -->
     <div id="dvCardDisplay"></div>
 
+    <!-- Create div for button and the button -->
     <div id="buttonMargin"><button id="btnRestart">Restart Game!</button></div>
 
+    <!-- Reference the js -->
     <script src="../js/final.js"></script>
 </body>
 </html>
